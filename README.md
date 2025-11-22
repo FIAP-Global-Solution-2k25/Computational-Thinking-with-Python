@@ -19,7 +19,22 @@ Utilizando a visão computacional e modelos de *Machine Learning* para estimativ
 * **Detecção de Postura em Tempo Real:** Monitoramento contínuo usando a webcam.
 * **Estimativa de Pose:** Utiliza bibliotecas avançadas (como MediaPipe ou OpenPose) para mapear pontos-chave do corpo (ombros, pescoço, coluna).
 * **Feedback Visual e Sonoro:** Alertas discretos quando a postura ideal não é mantida por um período de tempo.
+* **Perfis de Uso Customizáveis:** Utiliza o arquivo de configuração **`preferences.json`** para definir o nível de monitoramento desejado, como:
+    * **Fraco (Low):** Baixa sensibilidade e maior tempo de tolerância para alertas.
+    * **Moderado (Medium):** Configuração padrão e equilibrada.
+    * **Forte (High):** Alta sensibilidade e resposta imediata a pequenos desvios posturais.
 * **Análise Ergonômica:** Avaliação de métricas chave de postura, como o alinhamento da cabeça e a curvatura da coluna.
+* **Relatório Postural:** Ao finalizar a sessão, gera um **gráfico detalhado que exibe seus desvios posturais** ao longo do tempo, ajudando a identificar padrões de fadiga e áreas que requerem mais atenção.
+
+---
+
+## 📊 Análise Pós-Sessão: Relatórios de Desvios
+Após encerrar o monitoramento, o PosturAI processa os dados coletados para gerar um relatório visual. Este relatório utiliza gráficos para mostrar:
+
+1.  **Métrica de Postura ao Longo do Tempo:** Um gráfico de linha que ilustra como sua postura variou durante a sessão.
+2.  **Distribuição dos Desvios:** Um gráfico de barras ou pizza que quantifica o tempo gasto em cada categoria de má postura detectada (e.g., "Cabeça Inclinada", "Ombros Curvados", "Postura Correta").
+
+Essa funcionalidade é crucial para fornecer um *feedback* tangível, permitindo que o usuário visualize e compreenda melhor seus hábitos posturais.
 
 ---
 
@@ -28,8 +43,9 @@ O projeto é construído principalmente em Python, aproveitando o poder das segu
 
 * **Python 3.x**
 * **OpenCV:** Para captura, exibição e processamento de vídeo da webcam.
-* **MediaPipe (ou similar):** Para a estimativa de pose e detecção de *landmarks*.
+* **MediaPipe:** Para a estimativa de pose e detecção de *landmarks*.
 * **NumPy:** Para manipulação eficiente de dados numéricos.
+* **Matplotlib:** Para a geração dos gráficos de análise pós-sessão.
 
 ---
 
