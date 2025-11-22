@@ -17,13 +17,14 @@ Utilizando a visão computacional e modelos de *Machine Learning* para estimativ
 
 ## ✨ Recursos Principais
 * **Detecção de Postura em Tempo Real:** Monitoramento contínuo usando a webcam.
-* **Estimativa de Pose:** Utiliza bibliotecas avançadas (como MediaPipe ou OpenPose) para mapear pontos-chave do corpo (ombros, pescoço, coluna).
+* **Estimativa de Pose:** Utiliza bibliotecas avançadas (como MediaPipe ou OpenPose) para mapear pontos-chave do corpo (ombros, pescoço, orelha).
 * **Feedback Visual e Sonoro:** Alertas discretos quando a postura ideal não é mantida por um período de tempo.
+* **Alerta Tátil (Integração IoT):** Capacidade de enviar sinais para um microcontrolador (como **ESP32 ou Arduino**) para ativar dispositivos de feedback físico, como a **emissão de vibração** em acessórios vestíveis ou superfícies de contato, para um alerta discreto e imediato.
 * **Perfis de Uso Customizáveis:** Utiliza o arquivo de configuração **`preferences.json`** para definir o nível de monitoramento desejado, como:
     * **Fraco (Low):** Baixa sensibilidade e maior tempo de tolerância para alertas.
     * **Moderado (Medium):** Configuração padrão e equilibrada.
     * **Forte (High):** Alta sensibilidade e resposta imediata a pequenos desvios posturais.
-* **Análise Ergonômica:** Avaliação de métricas chave de postura, como o alinhamento da cabeça e a curvatura da coluna.
+* **Análise Ergonômica:** Avaliação de métricas chave de postura, como o alinhamento da cabeça.
 * **Relatório Postural:** Ao finalizar a sessão, gera um **gráfico detalhado que exibe seus desvios posturais** ao longo do tempo, ajudando a identificar padrões de fadiga e áreas que requerem mais atenção.
 
 ---
