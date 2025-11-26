@@ -33,7 +33,7 @@ Utilizando a visão computacional e modelos de *Machine Learning* para estimativ
 Após encerrar o monitoramento, o PosturAI processa os dados coletados para gerar um relatório visual. Este relatório utiliza gráficos para mostrar:
 
 1.  **Métrica de Postura ao Longo do Tempo:** Um gráfico de radar que ilustra como sua postura variou durante a sessão.
-2.  **Distribuição dos Desvios:** Um gráfico que quantifica o tempo gasto em cada categoria de má postura detectada (e.g., "Cabeça Inclinada", "Ombros Curvados", "Postura Correta").
+2.  **Distribuição dos Desvios:** Um gráfico que exibe quais categoria de má postura foram detectadas ("Cabeça Inclinada", "Ombros Curvados", "Postura Correta").
 
 Essa funcionalidade é crucial para fornecer um *feedback* tangível, permitindo que o usuário visualize e compreenda melhor seus hábitos posturais.
 
@@ -42,7 +42,7 @@ Essa funcionalidade é crucial para fornecer um *feedback* tangível, permitindo
 ## 🛠️ Tecnologias Utilizadas
 O projeto é construído principalmente em Python, aproveitando o poder das seguintes bibliotecas:
 
-* **Python 3.x**
+* **Python 3.11.9**
 * **OpenCV:** Para captura, exibição e processamento de vídeo da webcam.
 * **MediaPipe:** Para a estimativa de pose e detecção de *landmarks*.
 * **NumPy:** Para manipulação eficiente de dados numéricos.
