@@ -32,8 +32,8 @@ Utilizando a visão computacional e modelos de *Machine Learning* para estimativ
 ## 📊 Análise Pós-Sessão: Relatórios de Desvios
 Após encerrar o monitoramento, o PosturAI processa os dados coletados para gerar um relatório visual. Este relatório utiliza gráficos para mostrar:
 
-1.  **Métrica de Postura ao Longo do Tempo:** Um gráfico de linha que ilustra como sua postura variou durante a sessão.
-2.  **Distribuição dos Desvios:** Um gráfico de barras ou pizza que quantifica o tempo gasto em cada categoria de má postura detectada (e.g., "Cabeça Inclinada", "Ombros Curvados", "Postura Correta").
+1.  **Métrica de Postura ao Longo do Tempo:** Um gráfico de radar que ilustra como sua postura variou durante a sessão.
+2.  **Distribuição dos Desvios:** Um gráfico que quantifica o tempo gasto em cada categoria de má postura detectada (e.g., "Cabeça Inclinada", "Ombros Curvados", "Postura Correta").
 
 Essa funcionalidade é crucial para fornecer um *feedback* tangível, permitindo que o usuário visualize e compreenda melhor seus hábitos posturais.
 
